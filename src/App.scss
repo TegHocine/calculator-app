@@ -1,0 +1,16 @@
+@use './scss/index' as *;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  background-color: $bg-dark-blue;
+  height: 100vh;
+  @include flex(center, center);
+  color: $text-white;
+
+  font-family: $font-family;
+  font-weight: $fony-weights;
+}

@@ -1,0 +1,18 @@
+@use '../../scss/index' as *;
+
+.calc-input {
+  background-color: $sbg-dark-blue;
+  height: 5rem;
+  padding-top: 0.5rem;
+  width: $mobile;
+  border-radius: 10px;
+  @include flex(center, flex-end);
+  font-size: $font-size;
+  font-weight: $fony-weights;
+  font-family: $font-family;
+  color: $text-white;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  padding-inline: 1rem;
+}

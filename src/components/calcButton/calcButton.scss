@@ -1,0 +1,31 @@
+@use '../../scss/index' as *;
+
+.key {
+  width: 25%;
+  margin-block: 0.5rem;
+  height: 2.5rem;
+  padding-top: 0.5rem;
+  border-radius: 10px;
+  @include flex(center, center);
+  background-color: $key-bg-light-grayish-orange;
+  color: $text-dark-grayish-blue;
+  @include shadow($key-shadow-grayish-orange);
+  font-size: $font-size;
+}
+
+.bigkey {
+  width: 50%;
+  font-size: 20px;
+}
+
+.redbg {
+  background-color: $key-bg-red;
+  color: $text-white;
+  @include shadow($key-shadow-dark-red);
+}
+
+.graybg {
+  background-color: $key-bg-dark-blue;
+  color: $text-white;
+  @include shadow($key-shadow-dark-blue);
+}

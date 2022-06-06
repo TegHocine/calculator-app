@@ -1,0 +1,13 @@
+@use '../../scss/index' as *;
+
+.keyboard {
+  width: $mobile;
+  background-color: $kp-dark-blue;
+  margin-top: 1rem;
+  border-radius: 10px;
+  padding: 1rem;
+  .row {
+    @include flex(center, center);
+    gap: 1rem;
+  }
+}

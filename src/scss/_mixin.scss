@@ -3,3 +3,7 @@
   align-items: $align-items;
   justify-content: $justify-content;
 }
+
+@mixin shadow($color) {
+  box-shadow: 0px 3px 0px $color;
+}

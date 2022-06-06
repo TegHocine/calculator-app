@@ -28,33 +28,33 @@ $fony-weights: 700;
 
 // #### Backgrounds
 // main background
-$bg-dark-blue: hsl(222, 26%, 31%);
+$bg-dark-blue: rgb(58, 71, 100);
 
 // toggle background, keypad background
-$kp-dark-blue: hsl(223, 31%, 20%);
+$kp-dark-blue: #232c43;
 
 // screen background
-$sbg-dark-blue: hsl(224, 36%, 15%);
+$sbg-dark-blue: #182034;
 
 // #### Keys
 // key background
-$key-bg-dark-blue: hsl(225, 21%, 49%);
+$key-bg-dark-blue: #637097;
 
 // key shadow
-$key-shadow-dark-blue: hsl(224, 28%, 35%);
+$key-shadow-dark-blue: #404e72;
 
 // key background, toggle
-$key-bg-red: hsl(6, 63%, 50%);
+$key-bg-red: #d03f2f;
 
 // key shadow
-$key-shadow-dark-red: hsl(6, 70%, 34%);
+$key-shadow-dark-red: #93261a;
 
 // key background
-$key-bg-light-grayish-orange: hsl(30, 25%, 89%);
+$key-bg-light-grayish-orange: #eae3dc;
 
 // key shadow
-$key-shadow-grayish-orange: hsl(28, 16%, 65%);
+$key-shadow-grayish-orange: #b4a597;
 
 // #### Text
-$text-dark-grayish-blue: hsl(221, 14%, 31%);
-$text-White: hsl(0, 0, 100%);
+$text-dark-grayish-blue: #444b5a;
+$text-white: #ffffff;
