@@ -9,7 +9,7 @@ const CalcInput = () => {
   return (
     <div className='calc-input'>
       {result ? <span className='pre-result'>({result})</span> : ''}
-
+      &nbsp;
       {calc || 0}
     </div>
   )

@@ -17,7 +17,10 @@ const CalcContext = (props) => {
     )
       return
     setCalc(calc + value)
-    setResult(calc)
+
+    if (!ops.includes(value)) {
+      setResult(eval(calc + value).toString())
+    }
   }
   return (
     <CalculatorContext.Provider value={{ calc, result, updateCalc }}>
