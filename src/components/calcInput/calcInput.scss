@@ -15,4 +15,9 @@
   outline: none;
   border-radius: 10px;
   padding-inline: 1rem;
+
+  .pre-result {
+    font-size: calc($font-size / 2);
+    color: $key-shadow-grayish-orange;
+  }
 }

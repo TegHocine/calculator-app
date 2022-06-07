@@ -11,6 +11,10 @@
   color: $text-dark-grayish-blue;
   @include shadow($key-shadow-grayish-orange);
   font-size: $font-size;
+  cursor: pointer;
+  &:hover {
+    background-color: $key-shadow-grayish-orange;
+  }
 }
 
 .bigkey {
@@ -22,10 +26,18 @@
   background-color: $key-bg-red;
   color: $text-white;
   @include shadow($key-shadow-dark-red);
+
+  &:hover {
+    background-color: $key-shadow-dark-red;
+  }
 }
 
 .graybg {
   background-color: $key-bg-dark-blue;
   color: $text-white;
   @include shadow($key-shadow-dark-blue);
+
+  &:hover {
+    background-color: $key-shadow-dark-blue;
+  }
 }

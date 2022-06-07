@@ -1,9 +1,18 @@
-import React from 'react'
+import React, { useContext } from 'react'
+import { CalculatorContext } from '../../context/CalcContext'
 
 import './calcInput.scss'
 
 const CalcInput = () => {
-  return <div className='calc-input'>399,399</div>
+  const { calc, result } = useContext(CalculatorContext)
+  console.log({ calc, result })
+  return (
+    <div className='calc-input'>
+      {result ? <span className='pre-result'>({result})</span> : ''}
+
+      {calc || 0}
+    </div>
+  )
 }
 
 export default CalcInput
