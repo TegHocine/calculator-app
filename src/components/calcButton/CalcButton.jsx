@@ -4,7 +4,7 @@ import { CalculatorContext } from '../../context/CalcContext'
 import './calcButton.scss'
 
 const CalcButton = ({ value }) => {
-  const { updateCalc } = useContext(CalculatorContext)
+  const { updateCalc, calculate } = useContext(CalculatorContext)
   const bgColor =
     value === 'RESET' || value === 'DEL'
       ? 'graybg'
@@ -13,9 +13,14 @@ const CalcButton = ({ value }) => {
       : ''
   const keytype = value === 'RESET' || '=' ? 'bigkey' : ''
 
-  const type = () => {
-    updateCalc(value)
-  }
+  const type =
+    value === '='
+      ? () => {
+          calculate()
+        }
+      : () => {
+          updateCalc(value)
+        }
   return (
     <div className={`key ${bgColor} ${keytype}`} onClick={type}>
       {value}
