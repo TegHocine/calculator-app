@@ -26,8 +26,24 @@ const CalcContext = (props) => {
   const calculate = () => {
     setCalc(eval(calc).toString())
   }
+
+  const deleteLast = () => {
+    if (calc === '') return
+
+    const value = calc.slice(0, -1)
+    setCalc(value)
+  }
+
+  const reset = () => {
+    if (calc === '') return
+
+    setCalc('')
+    setResult('')
+  }
+
   return (
-    <CalculatorContext.Provider value={{ calc, result, updateCalc, calculate }}>
+    <CalculatorContext.Provider
+      value={{ calc, result, updateCalc, calculate, deleteLast, reset }}>
       {props.children}
     </CalculatorContext.Provider>
   )
