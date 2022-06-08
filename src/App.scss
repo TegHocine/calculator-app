@@ -10,7 +10,18 @@
   height: 100vh;
   @include flex(center, center);
   color: $text-white;
-
   font-family: $font-family;
   font-weight: $fony-weights;
+}
+
+.calculator {
+  width: $mobile;
+  overflow: hidden;
+  padding: 1rem;
+}
+
+@include mobile {
+  .calculator {
+    width: 100%;
+  }
 }
