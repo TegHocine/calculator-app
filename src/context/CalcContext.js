@@ -30,6 +30,7 @@ const CalcContext = (props) => {
     setResult('')
   }
 
+  // this function delete last char typed and set result to 0
   const deleteLast = () => {
     if (calc === '') return
 
@@ -38,6 +39,8 @@ const CalcContext = (props) => {
     const value = calc.slice(0, -1)
     setCalc(value)
   }
+
+  // this function reset all states
 
   const reset = () => {
     if (calc === '') return
