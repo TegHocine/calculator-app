@@ -23,12 +23,17 @@ const CalcContext = (props) => {
     }
   }
 
+  // this function calculate the value typed with eval function ex: for 9 + 3  the function set calc to 11
+
   const calculate = () => {
     setCalc(eval(calc).toString())
+    setResult('')
   }
 
   const deleteLast = () => {
     if (calc === '') return
+
+    setResult('')
 
     const value = calc.slice(0, -1)
     setCalc(value)
