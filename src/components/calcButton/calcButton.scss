@@ -74,3 +74,36 @@
     }
   }
 }
+
+// light theme
+
+.light {
+  .key {
+    background-color: $key-bg-light-grayish-yellow;
+    color: $text-very-dark-grayish-yellow;
+    @include shadow($key-shadow-dark-grayish-orange);
+    cursor: pointer;
+    &:hover {
+      background-color: $key-shadow-dark-grayish-orange;
+    }
+  }
+
+  .equalkeybg {
+    background-color: $key-bg-orange;
+    color: $text-white;
+    @include shadow($key-shadow-dark-orange);
+    &:hover {
+      background-color: $key-shadow-dark-orange;
+    }
+  }
+
+  .specialkeybg {
+    background-color: $key-bg-dark-moderate-cyan;
+    color: $text-white;
+    @include shadow($key-shadow-very-dark-cyan);
+
+    &:hover {
+      background-color: $key-shadow-very-dark-cyan;
+    }
+  }
+}

@@ -35,3 +35,16 @@
     }
   }
 }
+
+//  light theme
+
+.light {
+  .toggle {
+    .bartheme {
+      background-color: $kp-grayish-red;
+      .circletheme {
+        background-color: $key-bg-orange;
+      }
+    }
+  }
+}

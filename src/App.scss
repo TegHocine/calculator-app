@@ -33,3 +33,11 @@
     color: $text-light-yellow;
   }
 }
+
+// light theme
+.light {
+  .app {
+    background-color: $bg-light-gray;
+    color: $text-very-dark-grayish-yellow;
+  }
+}

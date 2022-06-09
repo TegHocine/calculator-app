@@ -32,3 +32,15 @@
     }
   }
 }
+
+// light theme
+.light {
+  .calc-input {
+    background-color: $sb-light-gray;
+    color: $text-very-dark-grayish-yellow;
+
+    .pre-result {
+      color: $key-shadow-grayish-orange;
+    }
+  }
+}
