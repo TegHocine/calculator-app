@@ -5,7 +5,6 @@ import './calcInput.scss'
 
 const CalcInput = () => {
   const { calc, result } = useContext(CalculatorContext)
-  console.log({ calc, result })
   return (
     <div className='calc-input'>
       {result ? <span className='pre-result'>({result})</span> : ''}

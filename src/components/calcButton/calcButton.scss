@@ -19,7 +19,7 @@
 
 .bigkey {
   width: 50%;
-  font-size: 20px;
+  font-size: calc(#{$font-size} - 10px);
 }
 
 .redbg {

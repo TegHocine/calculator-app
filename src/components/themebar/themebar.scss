@@ -1,0 +1,12 @@
+@use '../../scss/index' as *;
+
+.themebar {
+  padding-block: 1rem;
+  @include flex(center, space-between);
+
+  .themetoggle {
+    @include flex(flex-end, center);
+    gap: 1.5rem;
+    font-size: calc(#{$font-size} / 2.8);
+  }
+}

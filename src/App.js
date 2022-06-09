@@ -1,6 +1,7 @@
 import CalcInput from './components/calcInput/CalcInput'
 import KeyBoard from './components/keyboard/KeyBoard'
 import CalcContext from './context/CalcContext'
+import ThemeBar from './components/themebar/ThemeBar'
 
 import './app.scss'
 
@@ -17,6 +18,7 @@ function App() {
     <CalcContext>
       <div className='app'>
         <div className='calculator'>
+          <ThemeBar />
           <CalcInput />
           <KeyBoard keys={keys} />
         </div>
