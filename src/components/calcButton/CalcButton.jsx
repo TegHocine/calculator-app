@@ -8,9 +8,9 @@ const CalcButton = ({ value }) => {
     useContext(CalculatorContext)
   const bgColor =
     value === 'RESET' || value === 'DEL'
-      ? 'graybg'
+      ? 'specialkeybg'
       : value === '='
-      ? 'redbg'
+      ? 'equalkeybg'
       : ''
   const keytype = value === 'RESET' || '=' ? 'bigkey' : ''
 

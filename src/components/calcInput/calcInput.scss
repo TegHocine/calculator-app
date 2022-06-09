@@ -20,3 +20,15 @@
     color: $key-shadow-grayish-orange;
   }
 }
+
+// neon theme
+.neon {
+  .calc-input {
+    background-color: $kp-very-dark-violet;
+    color: $text-light-yellow;
+
+    .pre-result {
+      color: $key-shadow-grayish-orange;
+    }
+  }
+}

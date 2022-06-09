@@ -25,3 +25,11 @@
     width: 100%;
   }
 }
+
+// neon theme
+.neon {
+  .app {
+    background-color: $bg-very-dark-violet;
+    color: $text-light-yellow;
+  }
+}

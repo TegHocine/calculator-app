@@ -22,7 +22,7 @@
   font-size: calc(#{$font-size} - 10px);
 }
 
-.redbg {
+.equalkeybg {
   background-color: $key-bg-red;
   color: $text-white;
   @include shadow($key-shadow-dark-red);
@@ -32,12 +32,45 @@
   }
 }
 
-.graybg {
+.specialkeybg {
   background-color: $key-bg-dark-blue;
   color: $text-white;
   @include shadow($key-shadow-dark-blue);
 
   &:hover {
     background-color: $key-shadow-dark-blue;
+  }
+}
+
+// neon theme
+
+.neon {
+  .key {
+    background-color: $key-bg-very-dark-violet;
+    color: $text-light-yellow;
+    @include shadow($key-shadow-dark-magenta);
+    cursor: pointer;
+    &:hover {
+      background-color: $key-shadow-dark-magenta;
+    }
+  }
+
+  .equalkeybg {
+    background-color: $key-bg-pure-cyan;
+    color: $text-very-dark-blue;
+    @include shadow($key-shadowsoft-cyan);
+    &:hover {
+      background-color: $key-shadowsoft-cyan;
+    }
+  }
+
+  .specialkeybg {
+    background-color: $key-bg-dark-violet;
+    color: $text-white;
+    @include shadow($key-shadow-vivid-magenta);
+
+    &:hover {
+      background-color: $key-shadow-vivid-magenta;
+    }
   }
 }

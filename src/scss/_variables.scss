@@ -62,6 +62,33 @@ $text-white: #ffffff;
 // ### Theme 2
 // #### Backgrounds
 // main background
+$bg-very-dark-violet: rgb(22, 6, 40);
+// toggle background, keypad background, screen background
+$kp-very-dark-violet: rgb(29, 9, 52);
+
+// #### Keys
+// key background
+$key-bg-dark-violet: rgb(88, 7, 125);
+// key shadow
+$key-shadow-vivid-magenta: #bc15f4;
+
+// key background, toggle
+$key-bg-pure-cyan: #00e0d1;
+// key shadow
+$key-shadowsoft-cyan: #6cf9f2;
+
+// key background
+$key-bg-very-dark-violet: rgb(52, 28, 79);
+// key shadow
+$key-shadow-dark-magenta: #871c9c;
+
+// #### Text
+$text-light-yellow: #ffe53d;
+$text-very-dark-blue: #1b2428;
+
+// ### Theme 3
+// #### Backgrounds
+// main background
 $Light-gray: #e6e6e6;
 // toggle background, keypad background
 $Grayish-red: #d1cccc;
@@ -86,34 +113,3 @@ $Dark-grayish-orange: #a69d91;
 
 // #### Text
 $Very-dark-grayish-yellow: #35352c;
-// text
-$White: #ffffff;
-
-// ### Theme 3
-// #### Backgrounds
-// main background
-$Very-dark-violet: rgb(22, 6, 40);
-// toggle background, keypad background, screen background
-$Very-dark-violet: rgb(29, 9, 52);
-
-// #### Keys
-// key background
-$Dark-violet: rgb(88, 7, 125);
-// key shadow
-$Vivid-magenta: #bc15f4;
-
-// key background, toggle
-$Pure-cyan: #00e0d1;
-// key shadow
-$Soft-cyan: #6cf9f2;
-
-// key background
-$Very-dark-violet: rgb(52, 28, 79);
-// key shadow
-$Dark-magenta: #871c9c;
-
-// #### Text
-$Light-yellow: #ffe53d;
-$Very-dark-blue: #1b2428;
-// text
-$White: #ffffff;
