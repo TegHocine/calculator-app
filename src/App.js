@@ -3,7 +3,7 @@ import KeyBoard from './components/keyboard/KeyBoard'
 import CalcContext from './context/CalcContext'
 import ThemeBar from './components/themebar/ThemeBar'
 
-import './app.scss'
+import './App.scss'
 
 const keys = [
   ['7', '8', '9', 'DEL'],
