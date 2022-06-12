@@ -1,3 +1,4 @@
+/* eslint no-eval: 0 */
 import React, { createContext, useState } from 'react'
 
 export const CalculatorContext = createContext()
